@@ -1,0 +1,8 @@
+same as ordinary;
+
+
+1. browser sends HTTP GET to exampleapp/spa, gets HTML code back
+2. browser sends HTTP GET to main.css and spa.js, gets main.css and spa.js back
+3. js code executes - browser sends HTTP GET for data.json, gets data.json back
+4. js code executes - browser renders notes from data.json.
+

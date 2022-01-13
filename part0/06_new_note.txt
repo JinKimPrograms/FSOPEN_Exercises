@@ -1,0 +1,7 @@
+1. browser sends HTTP POST to exampleapp/new_note_spa with json data containing new notes
+2. browser gets 201 created - no redirect back
+3. browser executes js code to add new created note to page
+
+a drawback is that you have to refresh the page to get the notes made by other people?
+
+

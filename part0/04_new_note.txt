@@ -1,0 +1,23 @@
+browser -> server
+HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+server -> browser
+return 302 response URL redirect
+browser -> server
+HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+server -> browser
+HTML code for notes page
+browser -> server
+HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server -> browser
+main.css
+browser -> server
+HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+server -> browser
+main.js
+
+browser -> server
+browser executes js code, requests json data
+HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server -> browser
+server returns data.json containing notes
+browser renders data using executed event handler
